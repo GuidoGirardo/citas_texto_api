@@ -6,7 +6,7 @@ import javax.inject.Singleton
 @Singleton
 class QuotesProvider @Inject constructor() {
 
-    var quotes: List<QuoteModel> = emptyList()
+    var quotes: List<QuoteModel> = emptyList(
 
     /*
     companion object {
